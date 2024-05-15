@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+
+.player-1 {
+    color: white;
+}
+
+.player-2 {
+    color: white;
+}
+
+.black-piece {
+    display: inline-block;
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    border-style: solid;
+}
+
+.white-piece {
+    display: inline-block;
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(243, 243, 244);
+}
+
+.container {
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    justify-content: center;
+    align-content: center;
+    height: 350px;
+    width: 350px;
+    border: 3px solid black;
+    /*box-shadow: 0 0 50px yellow;*/
+}
+
+.grid-item {
+    border: 1px solid black;
+}
