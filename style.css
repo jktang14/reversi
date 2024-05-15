@@ -14,8 +14,8 @@ body {
 .black-piece {
     display: inline-block;
     border-radius: 50%;
-    width: 90%;
-    height: 90%;
+    width: 88%;
+    height: 88%;
     background-color: black;
     border-style: solid;
 }
@@ -23,8 +23,8 @@ body {
 .white-piece {
     display: inline-block;
     border-radius: 50%;
-    width: 90%;
-    height: 90%;
+    width: 88%;
+    height: 88%;
     background-color: white;
     border-style: solid;
     border-color: rgb(243, 243, 244);
@@ -43,8 +43,8 @@ body {
     grid-template-columns: repeat(8, 1fr);
     justify-content: center;
     align-content: center;
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
     border: 3px solid black;
     /*box-shadow: 0 0 50px yellow;*/
 }
