@@ -1,14 +1,35 @@
 body {
     margin: 0;
-    background-color: grey;
+    background-color: rgb(154, 209, 140);
 }
 
 .player-1 {
     color: white;
+    font-size: 30px;
 }
 
 .player-2 {
     color: white;
+    font-size: 30px;
+}
+
+.timer {
+    color: white;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: black;
+    border-width: 3px;
+    padding: 1px 10px;
+    background-color: grey;
+}
+
+.player-timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 505px;
+    margin: 5px;
 }
 
 .black-piece {
