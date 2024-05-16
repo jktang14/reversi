@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: rgb(201, 176, 114);
+}
+
+.board-cosmetic {
+    display: flex;
+    flex-direction: row;
+    border-style: double;
+    height: 200px;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.color-block {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 90%;
+}
